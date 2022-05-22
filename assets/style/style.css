@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-celular{
+    height: 50rem;
+}
+
+.instagram-logo{
+    
+    height: 3rem;
+}
+
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.grupo:nth-child(1){
+    min-height: 28rem;
+   
+
+}
+
+.entrada1{
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    border-radius: 4px;
+    margin: 10px 8px 0;
+}
+
+.entrada1 input{
+    padding: 10px 1px;
+    margin: 4px;
+
+}
+
+.instagram-entrar{
+    background-color: #0095f6;
+    color: white;
+    padding: 4px 8rem;
+    border-radius: 4px;
+}
+
+.fa-brands{
+    color: #385185;
+}
+
+.esqueceu{
+    color: #385185;
+}
+
+.entrada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+.baixar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.baixar-app{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.app-baixar img{
+    height: 4rem;
+    width: 10rem;
+    background-size: cover;
+
+}
+
+.entrada a{
+    color: #0095f6;
+}
+
+
+
+@media (max-width: 1024px){
+    .instagram-pagina{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 650px){
+
+    body{
+        background-color: #ffffffff;
+    }
+
+
+    .instagram-pagina{
+        width: 90%;
+    }
+
+    .instagram-celular{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .grupo{
+        border: 1px solid transparent;
+    }
+
+    .entrada{
+        border: 1px solid transparent;
+    }
+}
+
